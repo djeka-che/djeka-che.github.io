@@ -1,0 +1,253 @@
+* { box-sizing: border-box;}
+body {
+	margin: 0;
+	font-size: 18px;
+	color: #333333;
+	font-family: "Libre+Franklin";
+}
+ul, li, a {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.opacity {
+	background-image: url(bg.img.png);
+	color: #FFFFFF;
+}
+.opacity1 {
+	background: rgba(198, 108, 73, 0.3);	
+}
+.header-nav {
+	width: 1110px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 90px 0 145px 0;
+}
+.home {
+	width: 555px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.portofolio {
+	width: 555px;
+	max-height: 100%;
+	font-size: 24px;
+}
+.title-info {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+	padding: 0 0 140px 0;
+}
+.theophile {
+	font-size: 64px;
+}
+.from-porto {
+	font-size: 24px;
+	padding: 25px 0 100px 0;
+}
+.latest {
+	font-size: 18px;
+	text-decoration: underline;
+}
+.about {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 90px 0 70px 0;
+}
+.central-text {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+}
+.lorem {
+	padding-bottom: 115px;
+	text-align: justify;
+	line-height: 30px;
+}
+.section-background {
+	background-color: #FFFAF2;
+}
+.skills {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+}
+.skills1 {
+	padding: 93px 0 86px 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+.skills-img {
+	width: 350px;
+	max-width: 100%;
+	padding-bottom: 148px;
+}
+.skills-img img {
+	display: block;
+}
+.skills-content {
+	width: 1110px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.profile2  {
+	width: 620px;
+	max-width: 100%;
+}
+.profile {
+	padding-bottom: 65px;
+}
+.engineer {
+	line-height: 70px;
+}
+.paper {
+	width: 446px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #F5D6AB;
+}
+.paper1 {
+	width: 381px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #C66C49;
+}
+.adobe {
+	width: 446px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #F5D6AB;
+}
+.adobe1 {
+	width: 351px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #C66C49;
+}
+.html {
+	width: 446px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #F5D6AB;
+}
+.html1 {
+	width: 286px;
+	max-width: 100%;
+	height: 24px;
+	background-color: #C66C49;
+}
+.profile, .ux, .tools-paper, .ui, .toola-adobe, .front-end, .tools-html {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height:40px;
+	text-align: left;
+}
+.bold {
+	font-weight: 600;	
+}
+.section2 {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+}
+.lorem-img {
+	display: flex;
+	flex-wrap: wrap;
+}
+.lorem-img img {
+	padding: 15px;
+}
+.chevrons {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 0 145px 0;
+}
+.chevrons img {
+	padding-right: 15px;
+}
+.lorem-ipsum {
+	display: flex;
+	flex-wrap: wrap;
+}
+.lorem-ipsum1 {
+	width: 445px;
+	max-width: 100%;
+}
+.portfolio2 {
+	padding: 90px 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+.research {
+	padding-bottom: 50px;
+	font-weight: 600;
+}
+.section2-text {
+	width: 350px;
+	max-width: 100%;
+	height: 137px;
+	text-align: justify;
+	padding-bottom: 335px;
+	line-height: 30px;
+}
+.lorem-img {
+	width: 665px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+footer {
+	background-color: #FFFAF2;
+}
+.footer-inside {
+	width: 1110px;
+	max-width: 100%;
+}
+.footer-title {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 90px 0 50px 0;
+}
+.footer-size {
+	width: 1110px;
+	max-width: 100%;
+	margin: auto;
+}
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.footer-contacts {
+	width: 370px;
+	max-width: 100%;
+}
+
+.footer-chevron {
+	text-align: right;
+	padding: 95px 0 70px 0;
+}
+.footer-contacts li {
+	padding-bottom: 14px;
+}
+@media only screen and (max-width: 375px) {
+	.skills-img img {
+		width: 100%;
+		margin: auto;
+	}
+	.skills-content {
+		width: 100%;
+	}
+	.lorem-img img {
+		width: 100%;
+	}
+}
